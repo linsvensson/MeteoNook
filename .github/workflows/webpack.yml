@@ -14,4 +14,5 @@ jobs:
         node-version: '12.10.0'
     - name: Install dependencies
       run: npm install
-    - run: node dist/index.js
+    #- name: Run server
+      #run: node dist/index.js
