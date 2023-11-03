@@ -14,4 +14,4 @@ jobs:
 
     - name: Run
       run: |
-        node index.js
+        node dist/index.js
