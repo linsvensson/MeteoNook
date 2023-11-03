@@ -12,6 +12,5 @@ jobs:
       with:
         node-version: '20.x'
 
-    - name: Run
-      run: |
-        node dist/index.js
+    - run: npm install
+    - run: node dist/index.js
